@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 7</title>
+  <style>
+    #progress{
+      width: 90%;
+      height: 25px;
+      background-color: gainsboro;
+
+      border: 2px solid black;
+      border-radius: 20px;
+      position:relative;
+      left: 4%;
+    }
+    #progress_bar{
+      background-color: hotpink;
+      height: 100%;
+      width: 50%;
+      border-radius: 20px;
+
+      animation: progress 3s ;
+    }
+    @keyframes progress {
+      0%{width: 0%;}
+      90%{width: 955;}
+      95%{width: 99%;}
+      100%{width: 100%;}
+    }
+  </style>
+</head>
+<body>
+  <div id="progress">
+    <div id="progress_bar"></div>
+  </div>
+</body>
+</html>

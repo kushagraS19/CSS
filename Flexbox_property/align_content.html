@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Align content</title>
+  <style>
+    .box {
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  margin: 5px;
+  text-align: center;
+}
+#heading {
+  text-align: center;
+}
+#container {
+  height: 600px;
+  width: 600px;
+  padding: 10px;
+  margin : 20px;
+  border: 3px solid black;
+  background-color: lavender;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+#box1 {background-color: aquamarine;}
+#box2 {background-color: bisque;}
+#box3 {background-color: darkkhaki;}
+#box4 {background-color: darksalmon;}
+#box5 {background-color: deeppink;}
+#box6 {background-color: darkgrey;}
+#box7 {background-color: hotpink;}
+  </style>
+</head>
+<body>
+  <h1 id="heading">Flexbox direction</h1>
+  <div id="container">
+    <div id="box1" class="box">Flex item 1</div>
+    <div id="box2" class="box">Flex item 2</div>
+    <div id="box3" class="box">Flex item 3</div>
+    <div id="box4" class="box">Flex item 4</div>
+    <div id="box5" class="box">Flex item 5</div>
+    <div id="box6" class="box">Flex item 6</div>
+    <div id="box7" class="box">Flex item 7</div>
+</body>
+</html>

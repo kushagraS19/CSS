@@ -1,0 +1,23 @@
+.padd {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: content-box;
+}
+#butt {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100px;
+  background-color :cadetblue ;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#butt2 {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100px;
+  background-color :cadetblue ;
+  border: 5px solid black;
+  border-radius: 5px 5px 5px 5px;
+}

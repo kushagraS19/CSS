@@ -1,0 +1,23 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: burlywood;
+  margin: 5px;
+  text-align: center;
+}
+#box1 {
+  position: static;
+}
+#box2 {
+  position: relative;
+  left: 110px
+}
+#box3 {
+  position: fixed;
+  left: 250px;
+  top: 250px;
+}
+#box4 {
+  position: absolute;
+  top: 50px;
+}

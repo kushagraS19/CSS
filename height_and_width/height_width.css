@@ -1,0 +1,7 @@
+.box {
+  height: 80px;
+  width: 80px;
+}
+#box1 {background-color: rgb(24, 55, 83);}
+#box2 {background-color: antiquewhite;}
+#box3 {background-color: aqua;}

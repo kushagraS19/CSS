@@ -1,0 +1,19 @@
+#boxx {
+  height: 100px;
+  width: 100px;
+  background-color: darkmagenta;
+  color: azure;
+  text-align: center;
+}
+#images {
+  height: 250px;
+  width: 250px;
+  background-image: url(Image0115.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+main {
+  height: 500px;
+  background-color: antiquewhite;
+}
